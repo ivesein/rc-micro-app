@@ -1,0 +1,36 @@
+.common-title-wrapper-for-detail-box {
+    margin-top: 24px;
+    .ant-collapse-header {
+        position: relative;
+        padding: 0!important;
+
+        span{
+            position: absolute;
+            right: 10px;
+            top:-30px!important;
+            bottom: unset!important;
+            left: unset!important;
+        }
+    }
+    .ant-collapse-content-box {
+        padding: 0 !important;
+    }
+    .common-title-wrapper-for-detail-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 48px;
+        padding-left: 10px;
+        color: #2b2b2b;
+        border: solid 1px #e6e6e6;
+        font-weight: 600;
+    }
+    .common-title-wrapper-for-detail {
+        background-color: #fafbff;
+        .handleInfo-adapt {
+            padding: 0!important;
+        }
+    }
+}
+
+

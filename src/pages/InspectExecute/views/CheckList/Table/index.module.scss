@@ -1,0 +1,8 @@
+.checktable {
+    padding-left:20px;
+    :global {
+        .ant-table-thead > tr > th {
+            background-color: #e4ecfd !important;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.inspect-drop-menu {
+    background-color: #FFF;
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+
+}
+
+.inspect-drop-menu-list {
+    .ant-dropdown-menu-item {
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+}

@@ -1,0 +1,17 @@
+.problemList {
+    background-color: #EEF2FE;
+    height: calc(100% - 56px);
+    padding-top: 10px;
+    display: flex;
+
+    .problistitem {
+        height: 100%;
+        padding: 0 20px 0 16px;
+        background-color: #FFF;
+        display: flex;
+        flex: 1;
+        .problemRight {
+            flex:1;
+        }
+    }
+}

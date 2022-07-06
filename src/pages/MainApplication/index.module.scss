@@ -1,0 +1,38 @@
+.mainpage {
+    height: 100%;
+    background-color: #eef2fe;
+    .tabbox {
+        height: calc(100% - 88px);
+        margin: 24px;
+        background-color: #fff;
+        overflow: auto;
+        :global {
+            .ant-tabs-nav {
+                margin-bottom: 0;
+            }
+            .ant-tabs-content {
+                height: 100%;
+            }
+        }
+    }
+    :global {
+        div::-webkit-scrollbar {
+            width: 6px;
+            height: 10px;
+        }
+        div::-webkit-scrollbar-track {
+            background: #eef2fe;
+            border-radius: 0;
+        }
+        div::-webkit-scrollbar-thumb {
+            background: #b3b3b3;
+            border-radius: 0;
+        }
+        div::-webkit-scrollbar-thumb:hover {
+            background: #b3b3b3;
+        }
+        div::-webkit-scrollbar-corner {
+            background: #b3b3b3;
+        }
+    }
+}

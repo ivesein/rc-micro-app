@@ -1,0 +1,22 @@
+.createPlan {
+    height: calc(100% - 40px);
+    background-color: #eef2fe;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+
+    .content {
+        flex: 1;
+        padding: 4px 4px 10px 20px;
+        overflow-y: auto;
+        background-color: #fff;
+    }
+    :global {
+        .common-button-groups {
+            background-color: #fff;
+            width: calc(100% - 6px);
+            padding-bottom: 16px;
+            box-sizing: border-box;
+        }
+    }
+}

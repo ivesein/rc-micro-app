@@ -1,0 +1,36 @@
+.statisitc {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+	padding-top: 10px;
+	background-color: #eef2fe;
+	overflow: hidden;
+
+	.content {
+		flex: 1;
+		// background-color: #fff;
+		flex-shrink: 0;
+		// overflow: hidden;
+		overflow: auto;
+
+		.gridWrapper {
+			width: 100%;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: 490px;
+			grid-column-gap: 15px;
+
+			.chartItem {
+				display: flex;
+				flex: 1;
+				flex-shrink: 0;
+				background-color: #fff;
+				justify-content: center;
+				align-items: center;
+			}
+		}
+	}
+}

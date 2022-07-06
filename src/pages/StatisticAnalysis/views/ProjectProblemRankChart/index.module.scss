@@ -1,0 +1,26 @@
+.cusTooltip {
+	min-width: 120px;
+	// height:55px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+	padding: 0px 4px;
+	background-color: rgba(255, 255, 255, 0.6);
+
+	.title {
+		font-size: 14px;
+		color: #2b2b2b;
+		margin-bottom: 10px;
+	}
+
+	.value {
+		font-size: 14px;
+		color: #2b2b2b;
+		margin-right: 10px;
+	}
+	.percent {
+		font-size: 14px;
+		color: #666;
+	}
+}

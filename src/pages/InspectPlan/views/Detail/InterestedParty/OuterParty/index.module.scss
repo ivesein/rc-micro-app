@@ -1,0 +1,50 @@
+
+.outerpart {
+    background-color: #FFF;
+    .partform {
+        padding-top: 16px;
+        margin-right: 24px;
+        .top {
+            display: flex;
+            align-items: center;
+            height: 48px;
+            padding-left: 33px;
+            border: 1px solid #e6e6e6;
+            background-color: #FFF;
+
+
+            .titlecontent {
+                padding-left: 16px;
+            }
+        }
+
+        .bottom {
+            display: flex;
+            align-items: center;
+            height: 48px;
+            border: 1px solid #e6e6e6;
+            border-top: none;
+            .left {
+                width: 133px;
+                height: 48px;
+                line-height: 48px;
+                padding-left: 32px;
+                border-right: 1px solid #e6e6e6;
+                border-bottom: 1px solid #e6e6e6;
+                background-color: #FFF;
+            }
+            .right {
+                flex:1;
+                height: 48px;
+                line-height: 48px;
+                padding-left: 33px;
+                border-bottom: 1px solid #e6e6e6;
+                background-color: #f8f8f8;
+            }
+            .star {
+                color:red;
+                padding-left: 5px;
+            }
+        }
+    }
+}

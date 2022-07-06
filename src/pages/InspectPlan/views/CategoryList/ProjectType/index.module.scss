@@ -1,0 +1,10 @@
+.projectType {
+    height: 80%;
+    overflow-y: auto;
+
+    .topclass {
+        padding-top: 16px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

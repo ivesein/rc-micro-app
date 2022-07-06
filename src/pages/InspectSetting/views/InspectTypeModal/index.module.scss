@@ -1,0 +1,41 @@
+.inspectTypeForm {
+	width: 560px;
+	height: 520px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	background-color: #fff;
+	pointer-events: auto;
+
+	.titleWrap {
+		height: 64px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 20px;
+		font-size: 14px;
+		color: #2b2b2b;
+		border-bottom: 1px solid #e6e6e6;
+
+		.closeIcon {
+			width:16px;
+			cursor: pointer;
+		}
+	}
+
+	.tableWrap {
+		display: flex;
+		flex: 1;
+		flex-shrink: 0;
+		padding: 25px 20px;
+	}
+
+	.boxWrap {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		padding: 20px;
+		border-top: 1px solid #e6e6e6;
+	}
+}

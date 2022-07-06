@@ -1,0 +1,15 @@
+.othertype {
+    border-top: 1px solid #e6e6e6;
+    .button {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 5px;
+        cursor: pointer;
+        &:hover {
+            background-color: #f1f5fe!important;
+            color: #245ff2!important;
+        }
+    }
+
+}

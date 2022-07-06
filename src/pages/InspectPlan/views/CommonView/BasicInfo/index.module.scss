@@ -1,0 +1,99 @@
+.basicInfo {
+    padding-right:10px;
+    :global {
+        .ant-input{
+            &::placeholder {
+                font-size: 14px;
+            }
+        }
+        input::placeholder{
+            font-size: 14px;
+        }
+        input {
+            font-size: 14px!important;
+        }
+        .ant-form-item-required {
+            flex-direction: row-reverse !important;
+            height: 48px;
+            line-height: 48px;
+            word-wrap: normal;
+            &:not(.ant-form-item-required-mark-optional)::before {
+                margin-left: 8px !important;
+                margin-right: 24px !important;
+            }
+        }
+
+        .ant-form-item-no-colon {
+            &:not(.ant-form-item-required) {
+                margin-right: 29px;
+            }
+        }
+
+        .ant-form-item-label {
+            label {
+                height: 48px;
+                line-height: 48px;
+            }
+        }
+
+        .ant-input-search > .ant-input-group {
+            height: 48px !important;
+            line-height: 48px !important;
+
+            > .ant-input-affix-wrapper {
+                height: 48px !important;
+                line-height: 48px !important;
+            }
+
+            > .ant-input-group-addon {
+                height: 48px !important;
+
+                .ant-input-search-button {
+                    height: 48px !important;
+                    width: 48px;
+                    position: relative;
+                    bottom: 3px;
+                }
+            }
+        }
+
+        .ant-select,
+        .ant-select-focused,
+        .ant-select-single,
+        .ant-select-show-arrow,
+        .-select-open,
+        .ant-select-selector {
+            height: 48px !important;
+        }
+
+        .ant-select-selection-placeholder,
+        .ant-select-selection-search,
+        .ant-select-selection-item {
+            line-height: 48px !important;
+        }
+
+        .ant-select-selector {
+            height: 48px !important;
+        }
+        .ant-collapse-content-box {
+            padding: 0!important;
+        }
+    }
+    .richText {
+        display: flex;
+
+        .richlabel {
+            padding-right: 25px;
+            .star {
+                position: relative;
+                top: 3px;
+                color:#ff4d4f;
+                font-size:16px;
+                padding-left:13px;
+            }
+        }
+        .richRight {
+            flex: 1;
+        }
+    }
+}

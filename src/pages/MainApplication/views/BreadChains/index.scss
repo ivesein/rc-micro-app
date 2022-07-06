@@ -1,0 +1,14 @@
+.bread-chains-box {
+    height: 40px;
+    padding-left: 24px;
+    background-color:#FFF ;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color:#999;
+    .brains-hover-span {
+        &:hover {
+            color:#245FF2!important;
+        }
+    }
+}

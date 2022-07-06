@@ -1,0 +1,40 @@
+.chartBox {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+	flex: 1;
+	flex-shrink: 0;
+
+	.title {
+		display: flex;
+		height: 20px;
+		padding-left: 20px;
+		border-left: 3px solid #245ff2;
+		justify-content: flex-start;
+		align-items: center;
+		font-size: 16px;
+		color: #2b2b2b;
+		font-family: Source Han Sans CN;
+		font-weight: 500;
+		flex-shrink: 0;
+		margin: 18px 0;
+	}
+	.filterBar {
+		display: flex;
+		height: 32px;
+		justify-content: space-between;
+		align-items: center;
+		flex-shrink: 0;
+		padding: 0 24px;
+
+		.unit {
+			font-size: 14px;
+			color: #2b2b2b;
+			.unitLabel {
+				color: #999999;
+			}
+		}
+	}
+}

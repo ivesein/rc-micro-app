@@ -1,0 +1,15 @@
+.checklist {
+    background-color: #EEF2FE;
+    height: calc(100% - 56px);
+    padding-top: 10px;
+
+    .checklistitem {
+        height: 100%;
+        padding: 0 20px 0 16px;
+        background-color: #FFF;
+        display: flex;
+        .checkRight {
+            flex:1;
+        }
+    }
+}
