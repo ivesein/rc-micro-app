@@ -1,6 +1,7 @@
 {
   "name": "{{projectName}}",
-  "version": "0.1.0",
+  "version": "{{projectVersion}}",
+  "description": "{{projectDescription}}",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
