@@ -11,6 +11,6 @@ exports.DEV_API_BASE_URL = "http://www.glydev.cn"; //开发环境线上接口API
 exports.TEST_API_BASE_URL = "http://www.glyrel.cn"; //测试环境线上接口API_BASE地址
 exports.PREPRODUCT_API_BASE_URL = "https://www.gongluyun.cn"; //预生产环境线上地址接口API_BASE地址
 
-exports.OUTPUT_PORT = "project_do_micro"; //微前端线上部署访问端口路由
+exports.OUTPUT_PORT = "{{outPutPort}}"; //微前端线上部署访问端口路由
 exports.GATEWAY_PORT = "/rc"; //中台接口网关
 exports.XAPI_GATEWAY_PORT = "/mp"; //客户端接口网关

@@ -1,7 +1,7 @@
 {
-  "name": "{{projectName}}",
-  "version": "{{projectVersion}}",
-  "description": "{{projectDescription}}",
+  "name": "{{appName}}",
+  "version": "{{version}}",
+  "description": "gly-micro-app",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
